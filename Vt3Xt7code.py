@@ -9,7 +9,7 @@ if answer.lower().strip() == "yes":
             print ("Good choice, you made it away safely.")
             answer = input ("you see a car and a plane. which would you like to choose? (car/plane)")
             if answer== "plane":
-                print("Unfortunatly you do not know how to fly .. Game Over  ")
+                print("Unfortunatly you fly but your plane crashed sorry!  .. Game Over  ")
             else: 
                 print(" you won !")
     elif answer == "right":
